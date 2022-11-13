@@ -1,0 +1,77 @@
+*{
+  font-family: 'Red Rose';
+}
+
+.fw-400{
+  font-weight: 400;
+}
+
+.fs-18{
+  font-size: 18px;
+}
+
+.fs-20{
+  font-size: 20px;
+}
+
+.fs-24{
+  font-size: 24px;
+}
+
+.fs-48{
+  font-size: 48px;
+}
+
+.fs-13px{
+  font-size: 13px;
+}
+
+.fs-56{
+  font-size: 56px;
+}
+
+.bg-pink{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: #861d65;
+}
+
+.bg-pink-hover{
+  background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
+  border: #861d65 !important;
+}
+
+.bg-pink-hover:hover{
+  background: linear-gradient(90deg, #7e1e5f 11.45%, #7e1e5f 11.45%);
+}
+
+.text-pink{
+  color: #434343;
+}
+
+.height-90{
+  height: 90vh;
+}
+
+.image-hover{
+  transition: transform 2s;
+  cursor: pointer;
+}
+
+.image-hover:hover{
+  transform: scale(1.1);
+}
+
+.pointer{
+  cursor: pointer;
+}
+
+.position1{
+  position: relative;
+  right: -350px;
+}
+
+.position3{
+  position: relative;
+  bottom: 100px;
+  left: 70px;
+}
