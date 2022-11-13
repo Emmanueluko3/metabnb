@@ -19,9 +19,9 @@ function Dommycard(props) {
 
     return (
         <>
-            <Card className="my-3" style={{ width: '16rem' }}>
+            <Card className="my-3 pointer" style={{ width: '16rem' }}>
                 <Card.Body>
-                    <Card.Img variant="top" src={image} />
+                    <Card.Img variant="top" src={image} className="image-hover2" />
                     <div className="d-flex justify-content-between mt-1">
                         <p>{title}</p>
                         <h6 className="fw-bold">{per_night}</h6>
