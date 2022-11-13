@@ -6,11 +6,104 @@ import Image3 from '../img/image 3.svg';
 import Image4 from '../img/image 4.svg';
 import Image5 from '../img/image 5.svg';
 import Image6 from '../img/image 6.svg';
+import Image7 from '../img/image 7.svg';
+import Image8 from '../img/image 8.svg';
+import Image9 from '../img/image 9.svg';
 import NFTframes from '../img/nft-frames.svg';
 import Dommycard from '../components/cards';
+import Card1 from '../img/card1.svg';
+import Card2 from '../img/card2.svg';
+import Card3 from '../img/card3.svg';
+import Card4 from '../img/card4.svg';
+import Card5 from '../img/card5.svg';
+import Card6 from '../img/card6.svg';
+import Card7 from '../img/card7.svg';
+import Card8 from '../img/card8.svg';
 
 
 function Home() {
+
+    const cardItems = [
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card1
+        }, 
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card2 
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card3
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card4
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card5
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card6
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card7
+        },
+        {
+            title: 'Desert King',
+            per_night: '1MBT per night',
+            distance: '2345km away',
+            availability: 'available for 2weeks stay',
+            star_number: 5,
+            image:Card8
+        },
+    ]
+
+    const cards = cardItems.map((item, count) => (
+        <div className="col-lg-3">
+            <Dommycard 
+                key={item.toString() + '-' + count}
+                title={item.title} 
+                per_night={item.per_night}
+                distance={item.distance}
+                availability={item.availability}
+                star_number={item.star_number}
+                image={item.image} 
+                />
+        </div>
+    ))
+
     return ( 
         <>
             <div className="container mt-5 mb-5">
@@ -73,9 +166,7 @@ function Home() {
                 <h2 className="fw-bold fs-1">Inspiration for your next adventure</h2>
                 <div className="cards">
                     <div className="row text-center">
-                        <div className="col-lg-3">
-                            <Dommycard />
-                        </div>
+                        <>{cards}</>
                     </div>
                     
                 </div>
@@ -89,8 +180,8 @@ function Home() {
                             <p className="fs-18 py-3">Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.</p>
                             <Button className="btn-light btn px-4 my-3 py-2">Learn more</Button>
                         </div>
-                        <div className="col-lg-8 py-5">
-                            <img src={NFTframes} className="image-hover" alt="Avatar" />
+                        <div className="col-lg-8 py-5 ">
+                            <img src={Image7} className="image-hover custom-height1" alt="Avatar" />
                            
                         </div>
                     </div>

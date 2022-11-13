@@ -11,8 +11,6 @@ function App() {
 
   const triggerModal = () => {
     setModalState(!modalState)
-    console.log('modalState', modalState)
-    console.log('triggered', true)
   }
 
   return (

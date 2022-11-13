@@ -7,18 +7,19 @@ const { forwardRef, useRef, useImperativeHandle } = React;
 
 function Appmodal({showState}) {
     const [show, setShow] = useState(showState ?? false);
+    const [launchCount, setLaunchCount] = useState(0);
 
-    const toggleShow = () => setShow(!show);
+    const toggleShow = () => {
+        setShow(!show)
+    };
 
     useEffect(() => {
-        console.log('effect_show', showState)
-        if (showState) {
+        
+        if (launchCount > 0) {
             toggleShow()
-            console.log('effect_show', showState)
         }
+        setLaunchCount(launchCount+1)
       }, [showState]);
-
-    //const { forwardRef, useRef, useImperativeHandle } = React;
 
     return ( 
         <>
