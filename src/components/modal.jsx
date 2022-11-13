@@ -23,7 +23,6 @@ function Appmodal({showState}) {
 
     return ( 
         <>
-            <button onClick={toggleShow}>Modal</button>
             <Modal 
             show={show} 
             onHide={toggleShow} 
