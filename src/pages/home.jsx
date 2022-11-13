@@ -6,9 +6,7 @@ import Image3 from '../img/image 3.svg';
 import Image4 from '../img/image 4.svg';
 import Image5 from '../img/image 5.svg';
 import Image6 from '../img/image 6.svg';
-import Image7 from '../img/image 7.svg';
-import Image8 from '../img/image 8.svg';
-import Image9 from '../img/image 9.svg';
+import NFTframes from '../img/nft-frames.svg';
 import Dommycard from '../components/cards';
 
 
@@ -92,15 +90,8 @@ function Home() {
                             <Button className="btn-light btn px-4 my-3 py-2">Learn more</Button>
                         </div>
                         <div className="col-lg-8 py-5">
-                            <div className="position-absolute">
-                                <img src={Image7} className="image-hover" alt="Avatar" />
-                            </div>
-                            <div className="position-absolute">
-                                <img src={Image9} className="image-hover" alt="Avatar" />
-                            </div>
-                            <div className="position-absolute">
-                                <img src={Image8} className="image-hover" alt="Avatar" />
-                            </div>
+                            <img src={NFTframes} className="image-hover" alt="Avatar" />
+                           
                         </div>
                     </div>
                     
