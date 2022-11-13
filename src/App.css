@@ -30,6 +30,10 @@
   font-size: 56px;
 }
 
+.fs-48px{
+  font-size: 48px;
+}
+
 .bg-pink{
   background: linear-gradient(90deg, #A02279 11.45%, #A02279 11.45%);
   border: #861d65;

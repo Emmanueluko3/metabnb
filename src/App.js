@@ -3,8 +3,8 @@ import NavSection from './components/navbar';
 import './App.css';
 import Home from './pages/home';
 import Footer from './components/footer';
-import Mininav from './components/mini-nav';
 import Appmodal from './components/modal';
+import PlaceToStay from './pages/place-to-stay';
 
 function App() {
   const [modalState, setModalState] = useState(false);
@@ -17,7 +17,7 @@ function App() {
     <>
       <NavSection methods={{connectWalletAction: triggerModal}} />
       <Appmodal showState={modalState} />
-      <Mininav />
+      <PlaceToStay />
       <Home />
       <Footer />
     </>

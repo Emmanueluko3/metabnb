@@ -21,7 +21,10 @@ function NavSection(props) {
 
   return (
     <>
-      <Navbar bg="light" expand="lg">
+      <Navbar 
+        bg="white" 
+        expand="lg"
+        >
         <Container>
           <Navbar.Brand href="#"><img src={Logo} alt="Metabnb" className="img-fluid" /></Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

@@ -92,7 +92,8 @@ function Home() {
 
     const cards = cardItems.map((item, count) => (
         <div className="col-lg-3">
-            <Dommycard 
+            <div className="d-flex justify-content-center">
+                <Dommycard 
                 key={item.toString() + '-' + count}
                 title={item.title} 
                 per_night={item.per_night}
@@ -101,6 +102,8 @@ function Home() {
                 star_number={item.star_number}
                 image={item.image} 
                 />
+            </div>
+            
         </div>
     ))
 
@@ -162,10 +165,10 @@ function Home() {
                 </div>
             </div>
 
-            <div className="container text-center py-3">
-                <h2 className="fw-bold fs-1">Inspiration for your next adventure</h2>
-                <div className="cards">
-                    <div className="row text-center">
+            <div className="container text-center py-5">
+                <h2 className="fw-bold fs-48px">Inspiration for your next adventure</h2>
+                <div className="py-3">
+                    <div className="row">
                         <>{cards}</>
                     </div>
                     
@@ -173,7 +176,7 @@ function Home() {
             </div>
 
             <div className="container-fluid bg-pink text-white">
-                <div className="container my-5 py-5">
+                <div className="container py-5">
                     <div className="row">
                         <div className="col-lg-4 text-white">
                             <h3 className="fs-48 fw-400 py-3">Metabnb NFTs</h3>

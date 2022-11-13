@@ -36,7 +36,7 @@ function Appmodal({showState}) {
             
                 <Modal.Body>
                     <p className="fw-semibold">Choose your preferred wallet:</p>
-                    <div className="card p-1 my-2 shadow-sm pointer">
+                    <div className="card p-1 my-2 shadow-sm pointer bg-light">
                         <div className="d-flex justify-content-between align-items-center px-2">
                             <div className="d-flex justify-contents-between align-items-center">
                                 <img src={Metamaskc} alt="metamask" className="me-2" />
@@ -44,9 +44,8 @@ function Appmodal({showState}) {
                             </div>
                             <i className="fa-solid fa-chevron-right"></i>
                         </div>
-                        
-                        </div>
-                        <div className="card p-1 my-2 shadow-sm pointer">
+                    </div>
+                    <div className="card p-1 my-2 shadow-sm pointer bg-light">
                         <div className="d-flex justify-content-between align-items-center px-2">
                             <div className="d-flex justify-content-between align-items-center">
                                 <img src={WalletConnect} alt="metamask" className="me-2" />
