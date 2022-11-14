@@ -22,12 +22,12 @@ function Dommycard(props) {
                 <Card.Body>
                     <Card.Img variant="top" src={image} className="image-hover2" />
                     <div className="d-flex justify-content-between mt-1">
-                        <p>{title}</p>
-                        <h6 className="fw-bold">{per_night}</h6>
+                        <p className="fs-12px">{title}</p>
+                        <h6 className="fw-bold fs-12px">{per_night}</h6>
                     </div>
                     <div className="d-flex justify-content-between">
-                        <p className="fs-13px">{distance}</p>
-                        <p className="fs-13px">{availability}</p>
+                        <p className="fs-12px">{distance}</p>
+                        <p className="fs-12px">{availability}</p>
                     </div>
                     <div className="d-flex">
                         <>{stars}</>
