@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Rose:wght@300;400;500;700&display=swap');
+
 *{
   font-family: 'Red Rose';
 }
@@ -53,7 +55,11 @@
 }
 
 .text-pink{
-  color: #434343;
+  color: #A02279;
+}
+
+.custom-black{
+  color: #434343 !important;
 }
 
 .height-90{
@@ -72,6 +78,14 @@
 }
 
 .image-hover:hover{
+  transform: scale(1.1);
+}
+
+.link-hover{
+  transition: transform 2s;
+}
+
+.link-hover:hover{
   transform: scale(1.1);
 }
 

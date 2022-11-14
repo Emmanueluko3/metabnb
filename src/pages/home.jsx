@@ -108,16 +108,16 @@ function Home() {
         <>
             <div className="container mt-5 mb-5">
                 <div className="row">
-                    <div className="col-lg-6 col-md-12">
-                        <h2 className="text-pink fw-400 fs-56 mt-3">Rent a <span className="fw-bold">Place</span> away from</h2>
-                        <h2 className="text-pink fw-400 fs-56 mb-3"><span className="fw-bold">Home</span> in the <span className="fw-bold">Metaverse</span></h2>
-                        <p className="fs-24 text-pink mb-4">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
-                        <div className="input-group mb-5">
-                            <input type="text" className="form-control" placeholder="Search for location" aria-label="Recipient's username" aria-describedby="basic-addon2" />
+                    <div className="col-lg-7 col-md-12">
+                        <h2 className="custom-black fw-400 fs-56 mt-3">Rent a <span className="fw-bold text-pink">Place</span> away from</h2>
+                        <h2 className="custom-black fw-400 fs-56 mb-3"><span className="fw-bold text-pink">Home</span> in the <span className="fw-bold text-pink">Metaverse</span></h2>
+                        <p className="fs-24 custom-black mb-4">we provide you access to luxury and affordable houses in the metaverse, get a chance to turn your imagination to reality at your comfort zone</p>
+                        <div className="input-group mb-5 mt-4">
+                            <input type="text" className="form-control py-3" placeholder="Search for location" aria-label="Recipient's username" aria-describedby="basic-addon2" />
                             <Button className="bg-pink-hover ps-5 pe-5">Search</Button>
                         </div>
                     </div>
-                    <div className="col-lg-6 col-md-12 px-5 text-center">
+                    <div className="col-lg-5 col-md-12 px-5 text-center">
                         <div className="row">
                             <div className="col-lg-6 col-md-6 mt-5">
                                 <div className="row">
@@ -140,21 +140,21 @@ function Home() {
             <div className="container-fluid mt-3 mb-3 pt-3 pb-2 bg-pink">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-4 col-md-4 py-2 d-flex justify-content-center">
+                        <div className="col-lg-4 py-2 d-flex justify-content-center">
                             <div className="d-flex flex-row align-items-center text-white">
-                                <img src={Homelogo} alt="" />
+                                <img src={Homelogo} alt="" className="me-2"  />
                                 <h3 className="fw-bold">MBToken</h3>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 p-2 d-flex justify-content-center">
+                        <div className="col-lg-4 p-2 d-flex justify-content-center">
                             <div className="d-flex flex-row align-items-center text-white">
-                                <img src={Metamask} alt="" />
-                                <h3 className="fw-semibold"> M E T A D A T A</h3>
+                                <img src={Metamask} alt="" className="me-2" />
+                                <h3 className="fw-normal"> M E T A D A T A</h3>
                             </div>
                         </div>
-                        <div className="col-lg-4 col-md-4 py-2 d-flex justify-content-center">
+                        <div className="col-lg-4 py-2 d-flex justify-content-center">
                             <div className="d-flex flex-row align-items-center text-white">
-                                <img src={Opensea} alt="" />
+                                <img src={Opensea} alt="" className="me-2"  />
                                 <h3 className="fw-bold airbnb-font">OpenSea</h3>
                             </div>
                         </div>

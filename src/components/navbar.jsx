@@ -34,10 +34,10 @@ function NavSection(props) {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/" className="fw-400 fs-20 me-3 text-pink">Home</Nav.Link>
-              <Nav.Link href="/places" className="fw-400 fs-20 me-3 text-pink">Place to stay</Nav.Link>
-              <Nav.Link href="" className="fw-400 fs-20 me-3 text-pink">NFTs</Nav.Link>
-              <Nav.Link href="" className="fw-400 fs-20 me-3 text-pink">Community</Nav.Link>
+              <Nav.Link href="/" className="fw-400 fs-20 me-3 custom-black link-hover">Home</Nav.Link>
+              <Nav.Link href="/places" className="fw-400 fs-20 me-3 custom-black link-hover">Place to stay</Nav.Link>
+              <Nav.Link href="" className="fw-400 fs-20 me-3 custom-black link-hover">NFTs</Nav.Link>
+              <Nav.Link href="" className="fw-400 fs-20 me-3 custom-black link-hover">Community</Nav.Link>
             </Nav>
             <Button className="bg-pink-hover ps-4 pe-4" onClick={() => { methods.connectWalletAction() }}>Connect wallet</Button>
           </Navbar.Collapse>

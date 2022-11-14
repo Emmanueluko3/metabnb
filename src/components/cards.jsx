@@ -1,5 +1,4 @@
 import Card from 'react-bootstrap/Card';
-import Card1 from '../img/card1.svg'
 
 function Dommycard(props) {
     const {
@@ -14,12 +13,12 @@ function Dommycard(props) {
     let stars =  [...Array(star_number).keys()];
 
     stars = stars.map(item => {
-        return (<i className="fa-solid fa-star text-pink" key={item.toString()}></i>)
+        return (<i className="fa-solid fa-star text-pink me-2" key={item.toString()}></i>)
     });
 
     return (
         <>
-            <Card className="my-3 pointer" style={{ width: '16rem' }}>
+            <Card className="my-3 pointer" style={{ width: '20rem' }}>
                 <Card.Body>
                     <Card.Img variant="top" src={image} className="image-hover2" />
                     <div className="d-flex justify-content-between mt-1">
