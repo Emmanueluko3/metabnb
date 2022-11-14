@@ -87,20 +87,18 @@ function Home() {
         },
     ]
 
-    const cards = cardItems.map((item, count) => (
-        <div className="col-lg-3 col-md-6">
+    const cards = cardItems.map((item, index) => (
+        <div key={item.toString() + '-' + index} className="col-lg-3 col-md-6">
             <div className="d-flex justify-content-center">
                 <Dommycard 
-                key={item.toString() + '-' + count}
-                title={item.title} 
-                per_night={item.per_night}
-                distance={item.distance}
-                availability={item.availability}
-                star_number={item.star_number}
-                image={item.image} 
+                    title={item.title} 
+                    per_night={item.per_night}
+                    distance={item.distance}
+                    availability={item.availability}
+                    star_number={item.star_number}
+                    image={item.image} 
                 />
             </div>
-            
         </div>
     ))
 

@@ -6,12 +6,7 @@ import Footer from './components/footer';
 import Error from './pages/error';
 import Appmodal from './components/modal';
 import PlaceToStay from './pages/place-to-stay';
-import {
-  Routes,
-  Route, 
-  BrowserRouter 
-  as Router
-} from "react-router-dom";
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
 
 function App() {
   const [modalState, setModalState] = useState(false);
@@ -23,7 +18,7 @@ function App() {
   return (
     <>
 
-      <Router>
+      <BrowserRouter>
         <NavSection methods={{connectWalletAction: triggerModal}} />
         <Appmodal showState={modalState} />
         
@@ -34,7 +29,7 @@ function App() {
         </Routes>
 
         <Footer />
-      </Router>      
+      </BrowserRouter>      
     </>
   );
 }
