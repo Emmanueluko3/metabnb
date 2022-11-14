@@ -90,7 +90,7 @@
 
 .custom-height1{
   width: 100%;
-  height: 75%;
+  height: 100%;
 }
 
 .position1{
@@ -102,4 +102,8 @@
   position: relative;
   bottom: 100px;
   left: 70px;
+}
+
+.nfts{
+  height: 400px;
 }

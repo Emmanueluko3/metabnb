@@ -31,7 +31,7 @@ function Mininav() {
                         <div className="card p-1 pointer bg-light width-sm">
                             <div className="d-flex justify-content-between align-items-center px-2">
                                 <h4 className="fw-normal fs-18 pt-1">Location</h4>
-                                <i class="fa-solid fa-sliders"></i>
+                                <i className="fa-solid fa-sliders"></i>
                             </div>
                         </div>
                     </a>

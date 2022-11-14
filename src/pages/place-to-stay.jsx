@@ -151,7 +151,7 @@ function PlaceToStay() {
     ]
 
     const cards = cardItems.map((item, count) => (
-        <div className="col-lg-3">
+        <div className="col-lg-3 col-md-6">
             <div className="d-flex justify-content-center">
                 <Dommycard 
                 key={item.toString() + '-' + count}
