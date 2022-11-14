@@ -35,7 +35,7 @@ function NavSection(props) {
               navbarScroll
             >
               <Nav.Link href="/" className="fw-400 fs-20 me-3 text-pink">Home</Nav.Link>
-              <Nav.Link href="/contact" className="fw-400 fs-20 me-3 text-pink">Place to stay</Nav.Link>
+              <Nav.Link href="/places" className="fw-400 fs-20 me-3 text-pink">Place to stay</Nav.Link>
               <Nav.Link href="" className="fw-400 fs-20 me-3 text-pink">NFTs</Nav.Link>
               <Nav.Link href="" className="fw-400 fs-20 me-3 text-pink">Community</Nav.Link>
             </Nav>
