@@ -56,6 +56,10 @@
   height: 90vh;
 }
 
+.width-sm{
+  width: 10%;
+}
+
 .image-hover{
   transition: transform 2s;
   cursor: pointer;
