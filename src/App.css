@@ -26,6 +26,10 @@
   font-size: 13px;
 }
 
+.fs-15px{
+  font-size: 16px;
+}
+
 .fs-56{
   font-size: 56px;
 }
@@ -57,7 +61,9 @@
 }
 
 .width-sm{
-  width: 10%;
+  width: 130px;
+  display: flex;
+  align-content: center;
 }
 
 .image-hover{
