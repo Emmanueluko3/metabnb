@@ -85,12 +85,8 @@
   transform: scale(1.1);
 }
 
-.link-hover{
-  transition: transform 2s;
-}
-
 .link-hover:hover{
-  transform: scale(1.1);
+  color: #551cc9 !important;
 }
 
 .image-hover2{
