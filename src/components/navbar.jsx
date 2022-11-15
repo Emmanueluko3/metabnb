@@ -2,7 +2,8 @@ import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import Logo from '../img/logo.svg'
+import Logo from '../img/logo.svg';
+import { Link } from 'react-router-dom';
 
 
 
@@ -34,8 +35,8 @@ function NavSection(props) {
               style={{ maxHeight: '100px' }}
               navbarScroll
             >
-              <Nav.Link href="/" className="fw-400 fs-20 me-3 custom-black link-hover">Home</Nav.Link>
-              <Nav.Link href="/places" className="fw-400 fs-20 me-3 custom-black link-hover">Place to stay</Nav.Link>
+              <Nav.Link as={Link} to={"/"} className="fw-400 fs-20 me-3 custom-black link-hover">Home</Nav.Link>
+              <Nav.Link as={Link} to={"/places"} className="fw-400 fs-20 me-3 custom-black link-hover">Place to stay</Nav.Link>
               <Nav.Link href="" className="fw-400 fs-20 me-3 custom-black link-hover">NFTs</Nav.Link>
               <Nav.Link href="" className="fw-400 fs-20 me-3 custom-black link-hover">Community</Nav.Link>
             </Nav>
